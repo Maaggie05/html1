@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Site</title>
+        <style type="text/css">
+            #nav {
+                padding: 5px;
+            }
+            #footer {
+                position: fixed; 
+                left: 0; bottom: 0; 
+                color: rgb(0, 0, 0); 
+                width: 100%; 
+            }
+            #asidel {
+                background: #ff6fe9;
+                float: left; width: 110px; padding: 5px;
+            }
+            #content {
+                background: #ffcbf7;
+                margin: 0 120px;
+                padding: 10px;
+            }
+            #asider {
+                background: #ff6fe9;
+                float: right; color: #000;
+                width: 110px; padding: 5px;
+            }
+            li{
+                list-style: none; 
+                margin-right: 10px;
+            }
+            li:hover{
+                color: rgb(20, 23, 191);
+                transition: 1s;
+            }
+           </style>
+    </head>
+    <body>
+        <div>
+            <center>
+                    <ul style="display: flex;">
+                    <li id="p1">Марго</li>
+                    <li id="p2">Найкраща</li>
+                    <li>На головну</li>
+                    <li>Про сайт</li>
+                    <li>Карта сайту</li>
+                  </ul>
+            </center>
+        <div id="container">
+            <div id="asidel">Ліва колонка 
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat error atque, iure facere deserunt consequatur commodi labore possimus laboriosam, temporibus voluptatibus officiis modi minus. Qui labore tenetur exercitationem earum repellat!
+            </div>
+            <div id="asider">Права колонка 
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, magni magnam? Neque modi alias voluptate. Hic repellat necessitatibus sequi quisquam laborum mollitia ipsum, error esse, architecto saepe iusto repellendus facere.</div>
+            <div id="content">Центральна колонка 
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. A deserunt, expedita consequuntur soluta enim eum similique veritatis omnis commodi iure ea, at dolor voluptatum quidem odit aut sint quae velit! </p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, eius! Aliquid totam veritatis repellat obcaecati amet sequi ratione! Consequatur veniam facilis praesentium sunt error dignissimos quas saepe quaerat quos cumque!
+            </div>
+            </div>
+        <footer id="footer"><center>
+            <p> 2022 </p>
+        </footer></center>
+        <script type="text/javascript">
+            document.getElementById("asidel").style.background = "#6fff9f";
+            document.getElementById("p1").innerHTML = "New text!";
+            document.getElementById("p2").style.display = "none";
+            document.getElementById("asidel").style.float = "right";
+            document.getElementById("asider").style.float = "left";
+        </script>
+    </body>
+</html>
